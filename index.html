@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+        
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+        }
+        
+        .header h1 {
+            font-size: 50px;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #822a2a;
+        }
+        /* Style the topnav links */
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .topnav a:hover {
+            background-color: #822a2a;
+            color: white;
+        }
+        
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+        
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+        
+        .fakeimg {
+            background-color: white;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+        
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="image/logo.png" alt="">
+        <p>Me gustaría ser participe del proyecto de LevelUp</p>
+    </div>
+
+    <div class="topnav" style="background: #960f0f">
+        <a href="#sectionOne ">Inicio</a>
+        <a href="#sectiontwo ">Informacion</a>
+        <a href="#footer">Contáctanos</a>
+    </div>
+
+    <div class="row ">
+        <div class="leftcolumn ">
+            <div class="card " id="sectionOne">
+                <h2>Quiénes Somos?</h2>
+                <h5>Viernes, 10 de Junio</h5>
+                <div><img src="image/logo.png" alt="logotipo"> </div>
+                <p>Mejora tus competencias y tus ingresos al graduarte de Level Up</p>
+                <p>Al entrenarte con nosotros estarás listo para el mercado laboral y tendrás trabajo garantizado.</p>
+            </div>
+            <div class="card " id="sectiontwo">
+                <h2>Qué hacemos?</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div><img src="image/level.png" alt="imagen_recreativa"></div>
+                <p>Experiencia..</p>
+                <p>Después de pasar nuestra prueba inicial de selección inscribiéndote aquí, estarás sumergido 100% con expertos, profesionales y emprendedores en tecnología y mercadeo digital que te ayudarán a desarrollar tus competencias de la mejor forma
+                    según el programa que elijas.</p>
+            </div>
+        </div>
+        <div class="rightcolumn ">
+            <div class="card ">
+                <h2>Acerca de</h2>
+                <div class="fakeimg " style="text-align: center;"><img src="image/circle.png" width="200" alt=""></div>
+                <p>Aprende con mentores que te desafían a través de tecnologías disruptivas, innovadoras y realiza</p>
+            </div>
+            <div class="card ">
+                <h3>Redes Sociales</h3>
+                <div class="fakeimg ">
+                    <img src="image/logo_face.png" width="200" alt="">
+                </div>
+                <div class="fakeimg ">
+                    <img src="image/logo_twitter.png" width="200" alt="">
+                </div>
+                <div class="fakeimg ">
+                    <a href="/www.instagram.com">
+                        <img src="image/instagram.jpg" width="200" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer " id="footer" style="background:red; color: white">
+        <h2>SIGUENOS EN</h2>
+        <a href="" style="color:white">
+            <h4>Facebook</h4>
+        </a>
+
+    </div>
+
+</body>
+
+</html>
